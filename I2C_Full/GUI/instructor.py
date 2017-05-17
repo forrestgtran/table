@@ -26,5 +26,5 @@ class instructor:
         print("Wrote: "+ outString)
 
     	for character in outString: # convert into a string and iterate over it
-        	self.bus.write_byte(address, ord(character)) # send each char's ASCII encoding
+        	self.bus.write_byte(self.address, ord(character)) # send each char's ASCII encoding
     	return -1
