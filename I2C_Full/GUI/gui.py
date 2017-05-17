@@ -23,7 +23,7 @@ class gui(Frame):
         var = IntVar()
 
         #General stuff
-        self.parent.title("Adress Bus Manager")
+        self.parent.title("I2C Command Manager")
         self.style = Style()
         self.style.theme_use("default")
         #self.pack(fill=BOTH, expand=1)
