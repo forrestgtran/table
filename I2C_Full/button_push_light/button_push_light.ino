@@ -17,7 +17,7 @@ int sum_l = 0;
 int normal_r = 0;
 int normal_l = 0;
 
-int mode = 42;
+int mode = 0;
 
 int servopin_up = 10;
 int servopin_down = 9;
@@ -77,7 +77,6 @@ void loop() {
 
   if(inString == "5light") {
     mode = 0;
-    Serial.print("fuck!");
   } 
   else if (inString == "6serial"){
     mode = 1;
