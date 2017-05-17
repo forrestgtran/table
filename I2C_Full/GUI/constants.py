@@ -1,3 +1,5 @@
+#constants.py - this class contains all of the constants in the program
+
 class Constants:
     WINDOW_WIDTH = 330
     WINDOW_HEIGHT = 150

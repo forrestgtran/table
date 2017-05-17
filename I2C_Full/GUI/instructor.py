@@ -1,3 +1,6 @@
+
+#instructor.py - this class deals with sending the commands to the respective Arduinos
+
 import time
 import smbus
 
@@ -7,8 +10,6 @@ class instructor:
     def __init__(self):
         self.address = 0x04
         self.bus = smbus.SMBus(1)
-        #self.address1 = 0x04
-        #self.address2 = 0x06
 
 
     def setAddress(self, ad):

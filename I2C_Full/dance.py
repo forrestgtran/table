@@ -1,4 +1,3 @@
-##This code lets you choose which Arduino to send i2c serial commands to.
 
 import time
 import smbus

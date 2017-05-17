@@ -1,3 +1,5 @@
+#main.py - this is the main method
+
 from gui import *
 from instructor import *
 

@@ -1,3 +1,5 @@
+# gui.py - this class deals with the GUI layout and button logic
+
 
 from Tkinter import *
 from ttk import Frame, Button, Style, Radiobutton, Style
